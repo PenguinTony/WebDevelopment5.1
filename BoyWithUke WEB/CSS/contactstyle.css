@@ -1,0 +1,86 @@
+label {
+    font-family: 'NexaLight';
+    font-size: 120%;
+    color: white;
+
+}
+
+body { background-color: #005c9c}
+button {block-size: 40px; background-color: white; margin-top: 20px}
+fieldset {width: 100px;margin: auto;}
+div {margin-bottom: 20px}
+h1 {font-size: 1000%;
+    color: white;
+    font-family: 'MolikaRegular';
+    text-align: center;
+}
+
+@font-face{
+    font-family: "NexaLight";
+    src: url('../FONTS/Nexa-ExtraLight.ttf');
+}
+
+@font-face{
+    font-family: "MolikaBold";
+    src: url('../FONTS/Molika\ Bold.ttf');
+}
+
+@font-face{
+    font-family: "MolikaRegular";
+    src: url('../FONTS/Molika\ Regular.ttf');
+}
+
+@font-face{
+    font-family: "MolikaLight";
+    src: url('../FONTS/Molika\ Light.ttf');
+}
+
+@font-face{
+    font-family: "NexaBold";
+    src: url('../FONTS/Nexa-Heavy.ttf');
+}
+
+
+.errorText{color:red}
+.inputError{color:red; border:1px red solid}
+
+.right{
+    display: block;
+    margin-left: auto;
+    margin-right: 0%;
+
+}
+
+.navbar .nav-item .nav-link{
+
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: white;
+    margin: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #005c9c;
+
+}
+
+.nav-link{
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: white;
+    margin: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #005c9c;
+}
+
+.margin{
+    margin: 30px
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.leftalign{
+    text-align: left;
+}

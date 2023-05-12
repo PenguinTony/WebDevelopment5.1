@@ -1,0 +1,240 @@
+
+.bgp{
+    width: 100%;
+    height: 1000px;
+    background-image: url('../IMAGES/boywithukeproductsbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bgm{
+    width: 100%;
+    height: 1000px;
+    background-image: url('../IMAGES/boywithukemusicbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body{   
+    background-color: #005c9c;
+}
+
+
+.right{
+    display: block;
+    margin-left: auto;
+    margin-right: 0%;
+
+}
+
+
+.navbar .nav-item .nav-link{
+
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: white;
+    margin: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #005c9c;
+
+}
+
+@font-face{
+    font-family: "NexaLight";
+    src: url('../FONTS/Nexa-ExtraLight.ttf');
+}
+
+@font-face{
+    font-family: "MolikaBold";
+    src: url('../FONTS/Molika\ Bold.ttf');
+}
+
+@font-face{
+    font-family: "MolikaRegular";
+    src: url('../FONTS/Molika\ Regular.ttf');
+}
+
+@font-face{
+    font-family: "MolikaLight";
+    src: url('../FONTS/Molika\ Light.ttf');
+}
+
+@font-face{
+    font-family: "NexaBold";
+    src: url('../FONTS/Nexa-Heavy.ttf');
+}
+
+
+h2{
+    font-family: 'NexaLight';
+    text-align: center;
+    padding-top: 60px;
+    padding-right: 20%;
+    color: white
+}
+
+h1{
+    text-align: center;
+    font-family: 'MolikaRegular';
+    color: white;
+    font-size: 900%;
+    padding: 1%;
+}
+
+h3{
+    color: white;
+    font-family: 'NexaLight';
+    text-align: center;
+}
+
+.padding{
+    padding: 2%
+}
+
+.nav-link{
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: white;
+    margin: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #005c9c;
+}
+
+.margin{
+    margin: 30px
+}
+
+video{
+    outline-width: 2px;
+    outline-color: white;
+    outline-style: solid;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.album{
+    padding-left: 32%;
+    padding-bottom: 3%;
+
+}
+
+h4{
+    color: white;
+    font-family: 'NexaLight';
+    text-align: center;
+    padding-top: 2%;
+    font-size: small;
+    padding-right: 12%;
+}
+
+.hoverimage{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .hoverimage:hover {
+    opacity: 0.3;
+    
+  }
+  
+  .hoverimage:hover .middle {
+    opacity: 1;
+    
+  }
+
+  .menupadding{
+      padding-left: 4%
+  }
+
+hr{
+    color: white;
+    width: 1000px;
+    margin: auto;
+}
+
+.buttonStyle{
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: white;
+    font-family: 'MolikaRegular';
+    font-size: 425%;
+}
+
+
+.anchorbutton{
+    background: radial-gradient(#005c9c, #000000);
+    border: none;
+    color: white;   
+    margin-top: 170%; 
+}
+
+.buttonStyle2{
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: white;
+    font-family: 'MolikaRegular';
+    font-size: 800%;
+}
+
+.anchorbutton2{
+    background: radial-gradient(#005c9c, #000000);
+    border: none;
+    color: white;   
+    margin-top: 100%; 
+}
+
+.rectangle{
+    width: 850px;
+    height: 425px;
+    background-color: #45a2f2;
+    border-radius: 2%;
+
+}
+
+.rectangle2{
+    width: 400px;
+    height: 425px;
+    background-color: #525252;
+    border: #525252;
+    border-radius: 2%;
+}
+
+.imgcart{
+    padding-left: 36%;
+    scale: 70%;
+}
+
+h5{
+    font-family: 'NexaLight';
+    text-align: center;
+    color: white;
+}
+
+.short{
+    width: 80%;
+}
+
+.checkout{
+    font-family: 'NexaLight';
+    background-color: #45a2f2;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 200%;
+}

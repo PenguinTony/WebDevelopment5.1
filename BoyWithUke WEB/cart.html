@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Cart</title>
+    <link rel="stylesheet" href="CSS/aboutstyle.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <img src="images/boywithukeicon.png" alt="icon" width="3%" height="auto">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Home.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="music.html">Music</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <a href="https://open.spotify.com/artist/1Cd373x8qzC7SNUg5IToqp"><img src="IMAGES/spotify.png" class="margin" alt="spotify"></a>
+          <a href="https://www.youtube.com/@boywithukeofficial"><img src="IMAGES/youtube.png" class="margin" alt="youtube"></a>
+          <a href="https://www.tiktok.com/@boywithuke?lang=en"><img src="IMAGES/tiktok.png" class="margin" alt="tiktok"></a>
+          <a href="https://www.instagram.com/boywithuke/?hl=en"><img src="IMAGES/insta.png" class="margin" alt="instagram"></a>
+          <a href="https://twitter.com/boywithukes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="IMAGES/twitter.png" class="margin" alt="twitter"></a>
+            <a class="nav-link" href="cart.html">Cart</a>
+
+        </div>
+        </nav>
+
+        <h1>Cart</h1>
+
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="rectangle">
+                <img src="IMAGES/featured1.png" class="imgcart" alt="shirt item in cart"> <!--rectangle within a div through css and adding a class for the image specific for the image in cart-->
+                <h5>BoyWithUke Shirt, black, medium, picture, artist</h5>
+                <hr class="short"> <!-- adding a class to shorten the <hr>-->
+                <h5>Quantity: 1 = €33.99</h5>
+              </div>
+            </div>
+            <div class="col">
+              <div class="rectangle2">
+                <h2>Checkout</h2>
+                <h5 class="padding">Subtotal: €31.50</h5> <!-- re using the padding class to create gaps between text-->
+                <h5>Shipping: Free</h5>
+                <h5>Sales Tax: €2.49</h5>
+                <hr class="short">
+                <h5 class="padding">Total: €33.99 </h5>
+
+                <button class="checkout"> Begin Checkout </button> <!-- Fake button to simulate checkout button-->
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
